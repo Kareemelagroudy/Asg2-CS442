@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.operator.OperatorTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec <<< FAILURE!
+com.mycompany.operator.OperatorTest.testMain()  Time elapsed: 0.017 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
+	at com.mycompany.operator.OperatorTest.testMain(OperatorTest.java:48)
+
