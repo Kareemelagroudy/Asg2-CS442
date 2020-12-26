@@ -5,18 +5,12 @@
     <artifactId>Operator</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <build>
-    <pluginManagement>
-      <plugins>
-        <plugin>
+    <dependencies>
+        <dependency>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>2.21.0</version>
-        </plugin>
-      </plugins>
-    </pluginManagement>
-   </build>
-    <dependencies>
+        </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
